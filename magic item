@@ -1,0 +1,17 @@
+<?php
+/*
+__PocketMine Plugin__
+class=fireitem
+name=fire item
+author=funneyship
+version=1
+apiversion=12,13
+*/
+class Fireitem implements Plugin{
+    private $api;
+
+    public function __construct(ServerAPI $api, $server = false)
+    {
+        $this->api = $api;
+    }
+
